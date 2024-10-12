@@ -1,6 +1,6 @@
 
 var pet = {
-    name: "Buddy", 
+    name: "Nano", 
     type: "dog", 
     age: 2,
     happiness: 80,
