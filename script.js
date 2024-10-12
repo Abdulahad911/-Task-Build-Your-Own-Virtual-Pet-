@@ -25,6 +25,11 @@ var pet = {
     this.happiness -= 5;
     this.hunger += 10;
     alert(`${this.name} is now ${this.age} years old! Hunger is ${this.hunger}, Happiness is ${this.happiness}`);
-   } 
-
-}
+   } }
+   function petInteraction() {
+    while(true){
+        var action = prompt("What would you like to do? (feed/play/age/status/exit)").toLowerCase();
+        
+    }
+    }
+petInteraction();
