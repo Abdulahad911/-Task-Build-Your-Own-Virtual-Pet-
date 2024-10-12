@@ -20,5 +20,11 @@ var pet = {
     }
     alert(`${this.name} had fun playing! Happiness is now: ${this.happiness}`);
    },
-  
+   agePet: function() {
+    this.age += 1;
+    this.happiness -= 5;
+    this.hunger += 10;
+    alert(`${this.name} is now ${this.age} years old! Hunger is ${this.hunger}, Happiness is ${this.happiness}`);
+   } 
+
 }
