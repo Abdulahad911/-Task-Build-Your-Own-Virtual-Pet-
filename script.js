@@ -3,6 +3,9 @@ var petType = prompt('What kind of pet\'s it is .e.g. "dog", "cat", "dragon" ?')
 var petAge = +prompt('What is your pet\'s age?Enter a value as number');
 var petHappiness = +prompt('How happy is your pet?Enter a value as number');
 var petHunger = +prompt('How hungry is your pet?Enter a value as number');
+if (isNaN(petAge) || isNaN(petHappiness) || isNaN(petHunger)) {
+    alert('Enter pet age, happiness and hunger as a number')
+}
 var pet = {
     name: "", 
     type: "", 
