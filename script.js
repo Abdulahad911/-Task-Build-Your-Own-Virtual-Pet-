@@ -3,10 +3,10 @@ var pet = {
     name: "Jack", 
     type: "dog", 
     age: 2,
-    happiness: 80,
+    happiness: 60,
     hunger: 40,
     feed: function() {
-        this.hunger = this.hunger- 20;
+        this.hunger = this.hunger - 20;
         if (this.hunger < 0) {
             this.hunger = 0;
         }
